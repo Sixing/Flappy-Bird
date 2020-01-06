@@ -14,6 +14,7 @@ class Bird extends Rectangle {
     this.maxY = gameHeight - landHeight - this.height; //最大的y坐标
     this.swingStatus = 1; //小鸟的翅膀状态
     this.timer = null; //翅膀煽动的计时器
+    this.render()
   }
 
   render() {
